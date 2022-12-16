@@ -12,3 +12,5 @@ One liner to download and run the setup script.
 ```sh
 curl -LJO https://raw.githubusercontent.com/nnlychai/dots/main/.config/dots/setup.sh && ./setup.sh
 ```
+
+Inspired by [mvllow/dots](https://github.com/mvllow/dots)
