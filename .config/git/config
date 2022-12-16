@@ -12,8 +12,8 @@
 [pull]
 	rebase = false
 [user]
-	name = mvllow
-	email = mvllow@icloud.com
+	name = nnlychai
+	email = xxvexe@gmail.com
 	signingkey = ~/.ssh/id_ed25519.pub
 [gpg]
 	format = ssh
