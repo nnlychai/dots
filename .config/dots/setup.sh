@@ -5,14 +5,14 @@ echo "dots"
 
 git clone \
 	--separate-git-dir=$HOME/dots.git \
-	https://github.com/mvllow/dots.git \
+	https://github.com/nnlychai/dots.git \
 	dots-tmp
 
 rsync --recursive --verbose --exclude '.git' dots-tmp/ $HOME/
 rm -rf dots-tmp
 
 git --git-dir=$HOME/dots.git/ --work-tree=$HOME config status.showUntrackedFiles no
-git --git-dir=$HOME/dots.git/ --work-tree=$HOME remote add origin git@github.com:mvllow/dots.git
+git --git-dir=$HOME/dots.git/ --work-tree=$HOME remote add origin git@github.com:nnlychai/dots.git
 
 if ! [ $(which brew) ]; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
