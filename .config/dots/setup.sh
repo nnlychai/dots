@@ -16,6 +16,7 @@ git --git-dir=$HOME/dots.git/ --work-tree=$HOME remote add origin git@github.com
 
 if ! [ $(which brew) ]; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	export PATH=/opt/homebrew/bin:$PATH
 fi
 
 brew upgrade
