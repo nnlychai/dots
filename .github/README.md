@@ -1,6 +1,6 @@
 # dots 🪴
 
-![cover](cover.avif)
+![cover](cover.png)
 
 ## usage
 
